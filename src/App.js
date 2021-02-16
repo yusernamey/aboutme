@@ -2,7 +2,9 @@ import './styles.css';
 
 function App() {
   return (
-    <div></div>
+    <div className="main">
+      <h1>SUDAS</h1>
+    </div>
   );
 }
 
