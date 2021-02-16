@@ -1,12 +1,12 @@
 body {
   margin: 0;
-  overflow: hidden;
+
 }
 .main {
   display: flex;
-  flex-direction: column;
-  width: 100vw;
-  height: 100vh;
+  flex-direction: column ;
+  width: 21cm;
+  height: 29.7cm; 
   background-color: green;
   align-items: center;
 }
