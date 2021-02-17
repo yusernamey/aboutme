@@ -11,15 +11,15 @@ body {
 }
 .main {
   display: flex;
-  flex-direction: column ;
+  flex-direction: row ;
   color: white;
 }
 
 .side {
   background-color: rgba(0,0,0,0.5);
   height: 15cm; 
-  width: 5cm;
-  margin: 50px 0 0 50px;
+  width: 7cm;
+  margin: 50px 0 0 25px;
   display: flex;
   flex-direction: column;
   place-items: center;
@@ -28,10 +28,67 @@ body {
   font-size: 0.7em;
 }
 
+.side p, h1 {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  width: 7cm;
+  height: 20px;
+}
+.side p {
+  font-size: 1.5em;
+}
+
 .side img {
   margin-top: 50px;
   box-shadow: 0px 5px 24px 3px rgba(0,0,0,0.88); 
   width: 150px;
   height: 150px;
   border-radius: 50%;
+}
+
+.side ul {
+  margin: 0;
+  padding: 0;
+  height: 280px;
+  width: 7cm;
+  list-style-type: none;
+  /* justify-content: center; */
+  /* justify-items: center; */
+}
+.side li {
+  width: 7cm;
+  height: 60px;
+  display: flex;
+  /* justify-items: center; */
+  place-items: center;
+  padding: 0;
+}
+
+.side li p {
+  font-size: 1.3em;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+.right-side {
+  padding: 0;
+  width: 11.4cm;
+  height: 29.7cm; 
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  text-align: center;
+}
+.right-side h1 {
+  margin: 50px 0 0 25px;
+  width: 14cm;
+  text-align: center;
+}
+
+.right-side p {
+    margin: 50px 0 0 25px;
+  width: 10cm;
 }
